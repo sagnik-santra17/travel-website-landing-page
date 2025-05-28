@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(images/hotel.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.logo h1 {
+  font-size: 1rem;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  transition: 0.3s;
+}
+
+.navbar-links a:hover {
+  color: brown;
+}
+
+.booking-text {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 70px;
+}
+
+.booking-text h1 {
+  font-size: 1rem;
+}
+
+.booking-text p {
+  font-size: 10px;
+}
+
+.cta .btn:hover {
+  background-color: white;
+  color: brown;
+}
+
+.btn {
+  font-size: 6px;
+  padding: 5px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  background-color: brown;
+  color: white;
+  transition: 0.3s;
+}
